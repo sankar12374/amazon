@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+   
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(download.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.address{
+    color: #ccc;
+    size: 0.85rem;
+    margin-left: 15px;
+   margin-top: 10px;
+}
+.place{
+    color: white;
+    size: 1rem;
+    margin-left:15px;
+    margin-bottom: 10px;
+}
+.address.icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+}
+.search-item{
+    justify-content: center;
+    width: 625px;
+    height: 30px;
+}
+.search-icon{
+    display: flex;
+    background-color: rgb(232, 155, 0);
+    width: 30px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 100%;
+
+}
+.language{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.country-icon{
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.select-lan{
+    border: none;
+    background-image: none;
+}
+ 
+.message{
+    color: #ccc;
+}
+.sign-in{
+    padding-left: 1rem;
+}
+.return{
+    color: #ccc;
+    justify-content: space-evenly;
+}
+.orders{
+    color: white;
+    padding-top: 0.5rem;
+}
+.cart-icon{
+    size: 0.85rem;
+}
+.menu-bar{
+    height: 30px;
+    background-color: rgba(82, 13, 8, 0.573);
+    justify-self: center;
+    align-content: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.menu{
+    padding-left: 20px;
+    width: fit-content;
+}
+.para-container{
+    justify-content: space-evenly;
+    display: flex;
+    width: 900px;
+}
+.electronics{
+    padding-left: 3rem;
+}
+.hero-section{
+     background-image: url(.vscode/3158.jpg_wh1200.jpg);
+}
+.hero-section {
+    background-image: url(.vscode/3158.jpg_wh1200.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    position: fixed;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    bottom: 25px;
+}
